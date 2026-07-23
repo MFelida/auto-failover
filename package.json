@@ -1,0 +1,19 @@
+{
+  "name": "pi-auto-failover",
+  "version": "0.1.0",
+  "description": "Pi extension: automatic failover to backup providers on transient model errors",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "node test/run.mjs"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-ai": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  },
+  "license": "MIT"
+}
